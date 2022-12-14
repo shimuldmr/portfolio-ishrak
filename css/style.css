@@ -57,3 +57,47 @@ header{
     background-color: #FFB925;
     color: #25262A;
 }
+
+/* section first */
+.section-first{
+    display: flex;
+    background-color: #25262A;
+}
+.hello{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.hello-p{
+    color: #62eea7;
+    margin-bottom: 16px;
+}
+.hello-h{
+    color: #f8f8f8;
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+.hello-p2{
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+.hello-img{
+    width: 50%;
+    
+}
+.hello-img img{
+    width: 100%;
+    background-color: #25262A;
+}
+
+.hello-con{
+    padding: 14px 50px;
+    color: rgb(0, 0, 0);
+    background-color: #FFB925;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
