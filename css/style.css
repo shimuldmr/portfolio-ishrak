@@ -33,18 +33,23 @@ header{
     text-decoration: none;
    
 }
-.nav_link li:hover{
+.nav_link li a:hover{
     border-bottom: 4px white solid;
+    padding-bottom: 10px;
    
 }
 .con button{
     padding: 14px 50px;
     color: rgb(0, 0, 0);
-    background-color: #FFB925;
+    background: linear-gradient(150deg,#ffba25,#dcb61eca);
     font-size: 18px;
     border-radius: 10px;
     font-weight: 500;
 }
+.con button:hover{
+    background: linear-gradient(150deg,#dcb61ed7,#ffba25);
+}
+
 #h-icon{
     color: #FFB925;
     font-size: 20px;
@@ -59,13 +64,16 @@ header{
 }
 
 /* section first */
+span{
+    color: #ffba25;
+}
 .section-first{
     display: flex;
     background-color: #25262A;
 }
 .hello{
     width: 50%;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-left: 70px;
 }
 .hello-p{
@@ -95,9 +103,64 @@ header{
 .hello-con{
     padding: 14px 50px;
     color: rgb(0, 0, 0);
-    background-color: #FFB925;
+    background: linear-gradient(150deg,#ffba25,#dcb61eca);
     font-size: 18px;
     border-radius: 10px;
     font-weight: 500;
     text-decoration: none;
+}
+.hello-con:hover{
+    background: linear-gradient(150deg,#dcb61ed7,#ffba25);
+}
+
+/* secend section */
+.part-4{
+    display: flex;
+    background-color: #2D2E32;
+}
+.part-2{
+    width: 50%;
+    margin: 60px;
+}
+.part-1{
+    width: 50%;
+    margin-top: 300px;
+    /* margin-left: 50px; */
+    margin-right: 50px;
+}
+.website-full{
+    padding: 120px 20px ;
+    background-color: #25262A;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+.website-full:hover{
+    background: linear-gradient(150deg,#63F3AA,#3C9272);
+    box-shadow: #3C9272 10px 10px 40px;
+    
+}
+
+.website-h{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.website-p{
+   
+    text-align: center;
+    color: white;
+}
+.proj{
+    font-size: 38px;
+    color: white;
+}
+.proj-p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: white;
+}
+.add{
+    margin-top: 10px;
 }
