@@ -119,26 +119,31 @@ span{
     background-color: #2D2E32;
 }
 .part-2{
-    width: 50%;
+    width: 60%;
     margin: 60px;
 }
 .part-1{
-    width: 50%;
+    width: 40%;
     margin-top: 300px;
     /* margin-left: 50px; */
     margin-right: 50px;
 }
 .website-full{
-    padding: 120px 20px ;
+    padding: 100px 20px ;
     background-color: #25262A;
-    margin: 20px;
+    margin: 30px;
     border-radius: 20px;
-    
+    transition: 2s, transform 2s;
+    transform: rotate(380deg);
+    border-bottom: 2px solid #63F3AA;
+    border-right: 2px solid #63F3AA;
 }
 .website-full:hover{
     background: linear-gradient(150deg,#63F3AA,#3C9272);
     box-shadow: #3C9272 10px 10px 40px;
-    
+    transform: rotatex(20deg);
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
 }
 
 .website-h{
@@ -152,7 +157,7 @@ span{
     color: white;
 }
 .proj{
-    font-size: 38px;
+    font-size: 50px;
     color: white;
 }
 .proj-p{
@@ -163,4 +168,39 @@ span{
 }
 .add{
     margin-top: 10px;
+}
+.part-4icon{
+    text-align: center;
+    font-size: 40px;
+    color: #62eea7;
+    /* transform: translateX(100px); */
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border: #62eea7 2px solid;
+    padding: 20px;
+    border-radius: 35px;
+}
+.part-4icon:hover{
+    background-color: #62eea7;
+    color: white;
+
+}
+.branding-img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.branding{
+    width: 50%;
+    margin-top:100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.branding-h{
+    color: white;
+    font-size: 40px;
+}
+.brand-mr{
+    padding-top: 130px;
+    padding-bottom: 150px;
 }
